@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Kickback</string>
+
+    <string name="PREF_NAME">Kairos.Kickback</string>
+    <string name="CAL_IDS">Kairos.Kickback.CAL_IDS</string>
+    <string name="SWITCH_VAL">Kairos.Kickback.SWITCH_VAL</string>
+    <string name="TITLE_SWITCH">Kairos.Kickback.TITLE_SWITCH</string>
+    <string name="TITLE_ID">Kairos.Kickback.TITLE_ID</string>
+    <string name="MESSAGE">Kairos.Kickback.MESSAGE</string>
+
+    <string name="auto">Auto Respond:</string>
+    <string name="cal">Calendar:</string>
+    <string name="setmessage">Set Default Message:</string>
+    <string name="hint">Sorry I could not get to my phone now. I will respond as quickly as I can.</string>
+    <string name="settitle">Include event Title:</string>
+
+    <string name="preview">Your Auto Response:</string>
+    <string name="preview2">Preview of Message</string>
+    <string name="title_activity_ad">Ad</string>
+
+    <integer name="MY_PERMISSIONS_REQUEST_READ_CALENDAR">10</integer>
+
+
+
+
+
+
+
+
+</resources>

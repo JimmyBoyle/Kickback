@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    >
+
+
+
+    <Switch
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/auto"
+        android:id="@+id/switch1"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:showText="false"
+        android:textColor="@android:color/primary_text_dark_nodisable" />
+    <Switch
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settitle"
+        android:id="@+id/switch2"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:showText="false"
+        android:textColor="@android:color/primary_text_dark_nodisable" />
+
+
+    <Button
+        android:layout_marginTop="10dp"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/test"
+        android:text="Click here to select your calendars">
+
+    </Button>
+
+    <TextView
+        android:layout_marginTop="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setmessage"
+        android:id="@+id/textView"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:textSize="@dimen/abc_dialog_padding_material" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="@string/hint"
+        android:id="@+id/message"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:textSize="@dimen/abc_dialog_padding_material" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preview"
+            android:id="@+id/textView3"
+            android:textColor="@android:color/primary_text_dark_nodisable"
+            android:textSize="@dimen/abc_dialog_padding_material" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/primary_text_dark_nodisable"
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:text="@string/hint"
+            android:scrollbars="vertical"
+            android:id="@+id/textView2" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+</ScrollView>
+</LinearLayout>
